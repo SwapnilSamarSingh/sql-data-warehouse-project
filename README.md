@@ -10,7 +10,7 @@ This project demonstrates the end-to-end implementation of a modern data warehou
 
 This project follows the **Medallion Architecture** approach, consisting of **Bronze**, **Silver**, and **Gold** layers.
 
-![Data Architecture](docs/data_architecture.png)
+![Data Architecture](docs/Data Warehouse Architecture.png)
 
 ### Bronze Layer
 
