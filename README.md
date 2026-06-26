@@ -6,6 +6,36 @@ This project demonstrates the end-to-end implementation of a modern data warehou
 
 ---
 
+# 📖 Project Overview
+
+This project includes:
+
+* **Data Architecture:** Designing a modern data warehouse using the Medallion Architecture.
+* **ETL Pipelines:** Extracting, transforming, and loading data from multiple source systems.
+* **Data Modeling:** Creating fact and dimension tables optimized for analytical workloads.
+* **Analytics & Reporting:** Developing SQL-based reports and business insights.
+
+---
+
+# 🚀 Project Requirements
+
+## Building the Data Warehouse (Data Engineering)
+
+### Objective
+
+Develop a modern data warehouse using SQL Server to consolidate sales data and support analytical reporting and business decision-making.
+
+### Specifications
+
+* **Data Sources:** Import data from ERP and CRM systems provided as CSV files.
+* **Data Quality:** Cleanse and validate data before loading.
+* **Data Integration:** Merge multiple sources into a unified analytical model.
+* **Data Model:** Design a user-friendly schema optimized for reporting.
+* **Scope:** Focus on the latest available dataset; historical tracking is not required.
+* **Documentation:** Provide comprehensive documentation for technical and business users.
+
+---
+
 # 🏗️ Data Architecture
 
 This project follows the **Medallion Architecture** approach, consisting of **Bronze**, **Silver**, and **Gold** layers.
@@ -32,29 +62,22 @@ This project follows the **Medallion Architecture** approach, consisting of **Br
 
 ---
 
-# 📖 Project Overview
+# 📂 Repository Structure
 
-This project includes:
-
-* **Data Architecture:** Designing a modern data warehouse using the Medallion Architecture.
-* **ETL Pipelines:** Extracting, transforming, and loading data from multiple source systems.
-* **Data Modeling:** Creating fact and dimension tables optimized for analytical workloads.
-* **Analytics & Reporting:** Developing SQL-based reports and business insights.
-
----
-
-# 🎯 Skills Demonstrated
-
-This project is ideal for showcasing skills in:
-
-* SQL Development
-* Data Warehousing
-* Data Engineering
-* ETL Development
-* Data Modeling
-* Data Analytics
-* Business Intelligence
-* Analytical Reporting
+```text
+data-warehouse-project/
+│
+├── datasets/                 # Source CSV files
+├── docs/                     # Architecture and documentation
+├── scripts/                  # SQL scripts
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+├── tests/
+├── analytics/                # Reporting and analytical queries
+├── LICENSE               
+└── README.md
+```
 
 ---
 
@@ -79,25 +102,6 @@ This project is ideal for showcasing skills in:
 * GitHub Repository
 * Draw.io
 * Notion Project Documentation
-
----
-
-# 🚀 Project Requirements
-
-## Building the Data Warehouse (Data Engineering)
-
-### Objective
-
-Develop a modern data warehouse using SQL Server to consolidate sales data and support analytical reporting and business decision-making.
-
-### Specifications
-
-* **Data Sources:** Import data from ERP and CRM systems provided as CSV files.
-* **Data Quality:** Cleanse and validate data before loading.
-* **Data Integration:** Merge multiple sources into a unified analytical model.
-* **Data Model:** Design a user-friendly schema optimized for reporting.
-* **Scope:** Focus on the latest available dataset; historical tracking is not required.
-* **Documentation:** Provide comprehensive documentation for technical and business users.
 
 ---
 
@@ -127,25 +131,6 @@ The analytics layer helps answer questions such as:
 
 ---
 
-# 📂 Repository Structure
-
-```text
-data-warehouse-project/
-│
-├── datasets/                 # Source CSV files
-├── docs/                     # Architecture and documentation
-├── scripts/                  # SQL scripts
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
-├── tests/
-├── analytics/                # Reporting and analytical queries
-├── LICENSE               
-└── README.md
-```
-
----
-
 # ⭐ Project Goals
 
 * Build a modern SQL Server data warehouse.
@@ -154,6 +139,21 @@ data-warehouse-project/
 * Design analytical data models.
 * Generate business insights through SQL analytics.
 * Demonstrate industry best practices in data engineering and analytics.
+
+---
+
+# 🎯 Skills Demonstrated
+
+This project is ideal for showcasing skills in:
+
+* SQL Development
+* Data Warehousing
+* Data Engineering
+* ETL Development
+* Data Modeling
+* Data Analytics
+* Business Intelligence
+* Analytical Reporting
 
 ---
 
