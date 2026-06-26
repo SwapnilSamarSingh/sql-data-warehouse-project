@@ -36,6 +36,20 @@ Develop a modern data warehouse using SQL Server to consolidate sales data and s
 
 ---
 
+## 📊 Analytics and Reporting
+
+### Objective
+
+Develop SQL-based analytical solutions that provide insights into:
+
+* Customer Behavior
+* Product Performance
+* Sales Trends
+
+These insights enable stakeholders to monitor key business metrics and support data-driven decision-making.
+
+---
+
 # 🏗️ Data Architecture
 
 This project follows the **Medallion Architecture** approach, consisting of **Bronze**, **Silver**, and **Gold** layers.
@@ -102,20 +116,6 @@ data-warehouse-project/
 * GitHub Repository
 * Draw.io
 * Notion Project Documentation
-
----
-
-# 📊 Analytics and Reporting
-
-### Objective
-
-Develop SQL-based analytical solutions that provide insights into:
-
-* Customer Behavior
-* Product Performance
-* Sales Trends
-
-These insights enable stakeholders to monitor key business metrics and support data-driven decision-making.
 
 ---
 
